@@ -1,7 +1,7 @@
-# ALGORITHM
+# ALGORITHMS
 
 
-Want to learn Algorithm ?
+Want to learn Algorithms ?
 
 if yes then go to these links ->
 
