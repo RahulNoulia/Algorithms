@@ -48,13 +48,13 @@ public class longestSubStringWitoutRepeating {
 		if (len == 1) {
 			return 1;
 		}
-		Set<Character> uniqueChar = new HashSet<>();
+		Set<Character> uniqueSet = new HashSet<>();
 		while (i < len) {
-			if (uniqueChar.add(s.charAt(i))) {
+			if (uniqueSet.add(s.charAt(i))) {
 				i++;
-				lenghtOfSubString = Math.max(lenghtOfSubString, uniqueChar.size());
+				lenghtOfSubString = Math.max(lenghtOfSubString, uniqueSet.size());
 			} else {
-				uniqueChar.remove(s.charAt(j));
+				uniqueSet.remove(s.charAt(j));
 				j++;
 			}
 		}
